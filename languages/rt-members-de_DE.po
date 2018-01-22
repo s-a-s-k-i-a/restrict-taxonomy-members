@@ -1,0 +1,291 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Restrict Taxonomy for Members\n"
+"POT-Creation-Date: 2018-01-22 18:32+0100\n"
+"PO-Revision-Date: 2018-01-22 18:47+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rt-members.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-rt-members-admin.php:116
+msgid "Membership Settings"
+msgstr "Mitgliedschaftseinstellungen"
+
+#: admin/class-rt-members-admin.php:308
+msgid "Membership Info"
+msgstr "Informationen zur Mitgliedschaft"
+
+#: admin/class-rt-members-admin.php:313
+msgid "Memberships"
+msgstr "Mitgliedschaften"
+
+#: admin/class-rt-members-admin.php:320
+msgid "Never"
+msgstr "Niemals"
+
+#: admin/class-rt-members-admin.php:322
+msgid "expires:"
+msgstr "Läuft ab:␣ "
+
+#: admin/class-rt-members-admin.php:333
+msgid "Single Post Access"
+msgstr "Zugriff auf Einzelbeitrag"
+
+#: admin/class-rt-members-admin.php:350
+msgid "No single post access."
+msgstr "Kein Zugriff auf Einzelbeiträge."
+
+#: admin/class-rt-members-admin.php:409 admin/class-view-rt-members.php:65
+#: admin/class-view-rt-members.php:376
+msgid "Content Permissions"
+msgstr "Inhaltsberechtigungen"
+
+#: admin/class-rt-members-admin.php:419
+msgid "Roles"
+msgstr "Rollen"
+
+#: admin/class-rt-members-admin.php:425 admin/class-view-rt-members.php:78
+msgid "Error Message"
+msgstr "Fehlermeldung"
+
+#: admin/class-rt-members-admin.php:435
+msgid "Limit access to the content to users of the selected roles."
+msgstr ""
+"Einschränken des Zugriffs auf die Inhalte für Benutzer der ausgewählten "
+"Rollen."
+
+#: admin/class-rt-members-admin.php:457
+#, php-format
+msgid ""
+"If no roles are selected, everyone can view the content. The author, any "
+"users who can edit the content, and users with the %s capability can view "
+"the content regardless of role."
+msgstr ""
+"Wenn keine Rollen ausgewählt sind, kann jeder den Inhalt anzeigen. Der "
+"Autor, alle Benutzer, die den Inhalt bearbeiten können, und mit "
+"entsprechenden Fähigkeiten, %s können den Inhalt unabhängig von der Rolle "
+"anzeigen."
+
+#: admin/class-rt-members-admin.php:590
+msgid "Restricted Taxonomy"
+msgstr "Zugriffsbeschränkte Taxonomie"
+
+#: admin/class-view-rt-members.php:64
+msgid "Roles and Capabilities"
+msgstr "Rollen und Fähigkeiten"
+
+#: admin/class-view-rt-members.php:66 admin/class-view-rt-members.php:385
+msgid "Sidebar Widgets"
+msgstr "Seitenleisten Widgets"
+
+#: admin/class-view-rt-members.php:67 admin/class-view-rt-members.php:394
+msgid "Private Site"
+msgstr "Private Seite"
+
+#: admin/class-view-rt-members.php:72
+msgid "Role Manager"
+msgstr "Rollenverwalter"
+
+#: admin/class-view-rt-members.php:73
+msgid "Multiple User Roles"
+msgstr "Mehrere Benutzerrollen"
+
+#: admin/class-view-rt-members.php:74
+msgid "Capabilities"
+msgstr "Fähigkeiten"
+
+#: admin/class-view-rt-members.php:77
+msgid "Enable Permissions"
+msgstr "Berechtigungen aktivieren"
+
+#: admin/class-view-rt-members.php:81
+msgid "Login Widget"
+msgstr "Anmelde-Widget"
+
+#: admin/class-view-rt-members.php:82
+msgid "Users Widget"
+msgstr "Benutzer-Widget"
+
+#: admin/class-view-rt-members.php:85
+msgid "Enable Private Site"
+msgstr "Private Seite aktivieren"
+
+#: admin/class-view-rt-members.php:86
+msgid "REST API"
+msgstr "REST API"
+
+#: admin/class-view-rt-members.php:87
+msgid "Disable Feed"
+msgstr "Feed deaktivieren"
+
+#: admin/class-view-rt-members.php:88
+msgid "Feed Error Message"
+msgstr "Feed Fehlermeldung"
+
+#: admin/class-view-rt-members.php:130
+msgid ""
+"xxxxxYour roles and capabilities will not revert back to their previous "
+"settings after deactivating or uninstalling this plugin, so use this feature "
+"wisely."
+msgstr ""
+"Ihre Benutzerrollen und Berechtigungen werden sich nicht auf ihre vorherige "
+"Einstellung zurücksetzen, nachdem das Plugin deaktiviert oder deinstalliert "
+"wurde. Verwenden Sie diese Einstellung daher mit Bedacht."
+
+#: admin/class-view-rt-members.php:145
+msgid "Enable the role manager."
+msgstr "Rollenverwalter aktivieren."
+
+#: admin/class-view-rt-members.php:163
+msgid "Denied capabilities should always overrule granted capabilities."
+msgstr ""
+"Abgelehnte Fähigkeiten sollten immer bereits gewährte Fähigkeiten außer "
+"Kraft setzen."
+
+#: admin/class-view-rt-members.php:170
+msgid "Show human-readable capabilities when possible."
+msgstr "Wenn möglich verständliche Fähigkeiten anzeigen."
+
+#: admin/class-view-rt-members.php:188
+msgid "Allow users to be assigned more than a single role."
+msgstr "Benutzern erlauben, mehr als ein einzige Rolle bekleiden zu können."
+
+#: admin/class-view-rt-members.php:203
+msgid "Enable the content permissions feature."
+msgstr "Das Inhaltsberechtigungs-Feature aktivieren."
+
+#: admin/class-view-rt-members.php:238
+msgid "Enable the login form widget."
+msgstr "Anmelde-Widget aktivieren."
+
+#: admin/class-view-rt-members.php:253
+msgid "Enable the users widget."
+msgstr "Benutzer-Widget aktivieren."
+
+#: admin/class-view-rt-members.php:268
+msgid ""
+"Redirect all logged-out users to the login page before allowing them to view "
+"the site."
+msgstr "Alle abgemeldeten Benutzer zunächst auf die Login-Seite weiterleiten."
+
+#: admin/class-view-rt-members.php:283
+msgid "Require authentication for access to the REST API."
+msgstr "Für den Zugriff auf die REST API wird die Authentifizierung benötigt."
+
+#: admin/class-view-rt-members.php:298
+msgid "Show error message for feed items."
+msgstr "Zeige Fehlermeldung für Feed-Einträge."
+
+#: admin/class-view-rt-members.php:346
+msgid "Restrict Taxonomy Add-on for Members"
+msgstr "Beschränkte Taxonomien Add-On für Members Plugin"
+
+#: admin/class-view-rt-members.php:347
+msgid ""
+"This Add-On extends Members Plugin by restrictable taxonomies. For example "
+"users can now be locked out from restricted categories."
+msgstr ""
+"Dieses Add-on erweitert Mitglieder Plugin um zugriffbeschränkte Taxonomien. "
+"Benutzer können aus zugriffsbeschränkten Kategorien ausgesperrt werden."
+
+#: admin/class-view-rt-members.php:367
+msgid "Role and Capabilities"
+msgstr "Rollen und Fähigkeiten"
+
+#: admin/class-view-rt-members.php:413
+msgid ""
+"The role manager allows you to manage roles on your site by giving you the "
+"ability to create, edit, and delete any role. Note that changes to roles do "
+"not change settings for the Members plugin. You are literally changing data "
+"in your WordPress database. This plugin feature merely provides an interface "
+"for you to make these changes."
+msgstr ""
+"Mit dem Rollenverwalter werden Benutzerrollen verwaltet. Benutzergruppen "
+"werden dort erstellt, bearbeitet und gelöscht. Bitte beachten, dass "
+"Änderungen an Benutzergruppen nicht die Einstellungen für das Mitglieder-"
+"Plugin ändern. Daten werden tatsächlich ausschließlich in der Wordpress-"
+"Datenbank geändert. Diese Plugin-Funktion bietet lediglich eine "
+"Schnittstelle, diese Änderungen komfortabel vorzunehmen."
+
+#: admin/class-view-rt-members.php:417
+msgid ""
+"The multiple user roles feature allows you to assign more than one role to "
+"each user from the edit user screen."
+msgstr ""
+
+#: admin/class-view-rt-members.php:421
+msgid ""
+"Tick the checkbox for denied capabilities to always take precedence over "
+"granted capabilities when there is a conflict. This is only relevant when "
+"using multiple roles per user."
+msgstr ""
+
+#: admin/class-view-rt-members.php:425
+msgid ""
+"Tick the checkbox to show human-readable capabilities when possible. Note "
+"that custom capabilities and capabilities from third-party plugins will show "
+"the machine-readable capability name unless they are registered."
+msgstr ""
+
+#: admin/class-view-rt-members.php:439
+#, php-format
+msgid ""
+"The content permissions features adds a meta box to the edit post screen "
+"that allows you to grant permissions for who can read the post content based "
+"on the user's role. Only users of roles with the %s capability will be able "
+"to use this component."
+msgstr ""
+
+#: admin/class-view-rt-members.php:453
+msgid ""
+"The sidebar widgets feature adds additional widgets for use in your theme's "
+"sidebars."
+msgstr ""
+
+#: admin/class-view-rt-members.php:467
+msgid ""
+"The private site feature redirects all users who are not logged into the "
+"site to the login page, creating an entirely private site. You may also "
+"replace your feed content with a custom error message."
+msgstr ""
+
+#: rt-members.php:56
+#, php-format
+msgid ""
+"Restrict Taxonomy for Members requires the plugin %sMembers%s please install "
+"and activate it now."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Restrict Taxonomy for Members"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.saskialund.de/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A plugin that adds restriction to taxonomies on a membership site."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Saskia Lund"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.saskialund.de"
+msgstr ""
