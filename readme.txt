@@ -31,6 +31,11 @@ This Add-On plugin is based on Members plugin developed by [Justin Tadlock](http
 
 Download the plugin zip file and upload it under your plugins add new section, then activate.
 
+= Please be aware of this! =
+
+Please be aware that current version was released for developers and other advanced users who know php code. You might need to add custom code to your wordpress themes to be able to use this plugin to its full potential.
+If you have any questions, please feel free to post an issue in issues tab here on github.
+If you need help implementing this plugin on your site, I am willing to assist for a fee. Please contact me if you are interested. Email: hello@saskialund.de
 
 == Changelog ==
 
